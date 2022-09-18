@@ -24,11 +24,11 @@ mock：放置mock数据的文件夹。可以模拟一些假的数据，通过moc
 
 node_modules：项目依赖模块。
 
-public：放置ico图标+静态页面。public文件夹里面经常放置一些静态资源，(mark:)在项目打包的时候webpack不会编译这个文件夹，原封不动的打包到dist文件夹里面。
+public：放置ico图标+静态页面。public文件夹里面经常放置一些静态资源，(MARK:)在项目打包的时候webpack不会编译这个文件夹，原封不动的打包到dist文件夹里面。
 
 src：放置程序员源代码。  
 * api文件夹：放置与请求相关的文件。  
-* assets文件夹：放置一些静态资源（一般共享的），(mark:)放在assets文件夹里面的静态资源在webpack打包的时候会进行编译。  
+* assets文件夹：放置一些静态资源（一般共享的），(MARK:)放在assets文件夹里面的静态资源在webpack打包的时候会进行编译。  
 * components文件夹：放置非路由组件或者全局组件。  
 * icons：放置一些svg矢量图。  
 * layout文件夹：放置一些组件与混入。  
