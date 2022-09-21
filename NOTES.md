@@ -22,7 +22,7 @@ build
 
 mock：放置mock数据的文件夹。可以模拟一些假的数据，通过mockjs实现。因为实际开发的时候，利用的是真的接口（数据），因此可以不关注这个文件夹。
 
-node_modules：项目依赖模块。
+node_modules：放置所有安装到项目的包。require()导入第三方包时，就是从这个目录中查找并加载包。  
 
 public：放置ico图标+静态页面。public文件夹里面经常放置一些静态资源，(MARK：)在项目打包的时候webpack不会编译这个文件夹，原封不动的打包到dist文件夹里面。
 
@@ -69,9 +69,11 @@ jest.config.js：放置jest测试框架配置文件。
 
 jsconfig.json：放置src别名文件。
 
-LICENSE：放置版权声明文件。
+LICENSE：放置版权声明文件。  
 
-package.json：可以看到项目名字、版本号、运行依赖等。
+package-lock.json：记录node_modules目录下每一个包的下载信息，eg包的名字、版本号、下载地址等。  
+
+package.json/包管理配置文件：记录与项目有关的配置信息，eg项目的名称、版本号、描述等；项目中都用到了哪些包；哪些包只会在开发期间使用；哪些包在开发和部署都需要用到。  
 
 postcss.config.js：放置CSS相关文件。
 
