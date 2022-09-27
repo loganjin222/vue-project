@@ -38,14 +38,10 @@ src：放置程序员源代码。
 - utils文件夹：放置一些实用性工具。  
     - request.js：（MARK：）放置axios二次封装文件。  
 - views文件夹：放置路由组件。  
-
-App.vue：放置根组件。
-
-main.js：放置入口文件。
-
-permission.js：放置导航守卫相关的文件。
-
-settings.js：放置项目配置项文件。
+- App.vue：放置根组件。
+- main.js：放置入口文件。
+- permission.js：放置导航守卫相关的文件。
+- settings.js：放置项目配置项文件。
 
 tests：放置测试文件。
 
